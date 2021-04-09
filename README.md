@@ -10,5 +10,5 @@ Why code? Why not? Post 911 GI Bill is fantastic, I'm curious, and I can learn t
 1. [learning_terminal](#learning_terminal.md)
 2. [learning_markdown](#learning_markdown.md)
 3. [git_tutorial](#git_tutorial.md)
-4. [growth_mindset](#growth_mindset.md
-)
+4. [growth_mindset](#growth_mindset.md)
+
