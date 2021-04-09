@@ -21,13 +21,6 @@ Essentially, never praise your employees, subordinates, children on 'traits'--pr
   3. Offer to help others. The best way to get out of one's head is to provide help to others. Changes one's heart and attitude, and then can come back to problems with renewed vigor. 
 
 # Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
-
-
-## Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com)
+1. [learning_terminal](#learning_terminal.md)
+2. [learning_markdown](#learning_markdown.md)
+3. [git_tutorial](#git_tutorial.md)
