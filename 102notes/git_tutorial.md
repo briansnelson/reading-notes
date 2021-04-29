@@ -1,32 +1,32 @@
-Notes from class 3, using git. 
+# Notes from class 3, using git. 
 
-Prior to git, I imagine developers jumped out of windows because the possiblity of catestrophic losses was possible. 
-Below are many of the notes from udemy's class about git--very specifc keystrokes to correctly code within git.
+* Prior to git, I imagine developers jumped out of windows because the possiblity of catestrophic losses was possible. 
+* Below are many of the notes from udemy's class about git--very specifc keystrokes to correctly code within git.
 
-Another beuty of git is that you can work in the cloud or locally on your own machine. 
+* Another beauty of git is that you can work in the cloud or locally on your own machine. 
+g
+* You clone repositories, work locally, then add/commit/push to place them into the cloud.
 
-You clone repositories, work locally, then add/commit/push to place them into the cloud.
+* There is also an undo function--thank God. That is by using the -amend command.
 
-There is also an undo function--thank God. That is by using the -amend command.
-
-The primary sequence is add/commit/push. But one can stash changes prior to committing--it temporarly removes changes and hides them with a clearn working direlcy. 
+## The primary sequence is add/commit/push. But one can stash changes prior to committing--it temporarly removes changes and hides them with a clearn working direlcy. 
 When you're ready to continue, you use 'git stash apply' to retrieve the hidden changes.
 
-History of Git
-Git traces its roots to the open source software project Linux kernel. Developers of this project began using a DVCS called BitKeeper in 2002. In 2005, many of these developers stopped using this DVCS due to tension between the Linux kernel community and the company behind BitKeeper’s and the eventual revocation of the DVCS’ gratis status. Subsequently, Linus Torvalds, the chief architect of the Linux kernel, began creating Git. With the intention of creating a DVCS with a workflow design similar to that of BitKeeper, which was also fast, Git allowed for non-linear development via multiple branches, could support large projects, possessed strong mechanisms preventing corruption, and had a simple design. Since its inception in 2005, Git has become one of the most utilized Version Control Systems in the world.
+## History of Git
+1. Git traces its roots to the open source software project Linux kernel. Developers of this project began using a DVCS called BitKeeper in 2002. In 2005, many of these developers stopped using this DVCS due to tension between the Linux kernel community and the company behind BitKeeper’s and the eventual revocation of the DVCS’ gratis status. Subsequently, Linus Torvalds, the chief architect of the Linux kernel, began creating Git. With the intention of creating a DVCS with a workflow design similar to that of BitKeeper, which was also fast, Git allowed for non-linear development via multiple branches, could support large projects, possessed strong mechanisms preventing corruption, and had a simple design. Since its inception in 2005, Git has become one of the most utilized Version Control Systems in the world.
 
-Mac OS X
+2. **Mac OS X**
 Terminal
 
-The simplest method for installing Git on a Mac (for Mavericks 10.9 and above) is running Git from the Terminal. If Git is not installed, you will see a prompt for installation.
+3. The simplest method for installing Git on a Mac (for Mavericks 10.9 and above) is running Git from the Terminal. If Git is not installed, you will see a prompt for installation.
 
-Git Website
+4. **Git Website**
 
 You can also download Git by visiting this link and following the posted directions:
 
 http://git-scm.com/download/mac
 
-GitHub
+5. **GitHub**
 
 A third option is to install Git as part of the GitHub for Mac install. GitHub is repository hosting service, which we will discuss in a future section.
 
@@ -34,69 +34,71 @@ Download GitHub for Mac via the following link:
 
 http://mac.github.com
 
-Graphical Clients
+6. **Graphical Clients**
 Git includes inherent Graphical User Interface (GUI) tools. However, users can also utilize third-party tools created for particular platforms.
 
-GUI Clients
+7. **GUI Clients**
 
 You can access a variety of GUI clients for Mac, Windows, and Linux via the following link:
 
 https://git-scm.com/downloads/guis
 
-Initial Customization
+8. **Initial Customization**
 After making sure Git has been installed, you should perform some customization steps, which should only need to be completed once on any machine. To change settings, you can repeat these steps.
 
-Configuration of Variables
+9. **Configuration of Variables**
 
 An inherent Git tool called git config allows the setting of configuration variables that control aspects of Git’s operation and look.
 
-Identity Setting
+10. **Identity Setting**
 
 After installing Git, users should immediately set the user name and email address, which will be used for every Git commit.
 
 Type the following into Terminal or Command Line:
 
-git config --global user.name "Jane Smith"
+* git config --global user.name "Jane Smith"
 
-git config --global user.email "example@email.com"
+* git config --global user.email "example@email.com"
 To confirm that you have the correct settings, enter the following command:
 
-git config --global user.name (should return Jane Smith)
+* git config --global user.name (should return Jane Smith)
 
-git config --global user.email (should return example@email.com)
-*By using the –global option, these Git settings apply to anything on the system. To use different identity settings for a specific project, change the working directory to the desired local Git repository and repeat the steps above without using –global.
-Check Settings
+* git config --global user.email (should return example@email.com)
+* By using the –global option, these Git settings apply to anything on the system. To use different identity settings for a specific project, change the working directory to the desired local Git repository and repeat the steps above without using –global.
+
+11. **Check Settings**
 To check settings, use the git config --list command.
 
 Example:
 
-$ git config --list
+* $ git config --list
 
-user.name=Jane Smith
+* user.name=Jane Smith
 
-user.email=example@email.com
+* user.email=example@email.com
 
-color.status=auto
+* color.status=auto
 
-color.branch=auto
+* color.branch=auto
 
-color.interactive=auto
+* color.interactive=auto
 
 ...
-Getting Help
+12. **Getting Help**
 There are three ways to get more information on a particular command, by accessing the manual:
 
-git help command
+* git help command
 
-git command --help
+* git command --help
 
-man git-command
-Setting up a Git Repository
+* man git-command
+
+13. Setting up a Git Repository
 Importing
 To import an existing project or directory into Git, follow these steps using the Terminal or Command Line:
 
 Switch to the target project’s directory
-Example:
+* Example:
 
 $ cd test (cd = change directory)
 Use the git init command
