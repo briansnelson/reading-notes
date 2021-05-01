@@ -24,7 +24,7 @@ Here I'm going to try to used a code block so I can show what I mean by using th
 
 ## Boxes
 
-This chapter discusses 
+This chapter discusses
 
 - Controlling the size of boxes
 - Box model for borders, margin and padding
@@ -43,6 +43,7 @@ This chapter discusses
 - Block-level boxes can be made into inline boxes, and vise versa
 
 ### Box Dimensions
+
 A default box is sized to fit the contents, can use width and height to set properites. 
 
 Most popular wasy to specify box size are to use:
@@ -90,6 +91,7 @@ Using these three help create white space and vertical margin, easier to read an
 ## JS Chapter 2 Basic JS and Chapter 4 Decisions and Loops
 
 ## Arrays:
+
 An array is a special type of variable. It stores a list of values. 
 
 - Array literal: The values are assigned inside a pair of square brackets, values separated by comma
