@@ -15,8 +15,8 @@
 - definitions
 
 Here I'm going to try to used a code block so I can show what I mean by using these particular tags in HTML.
-
-```<ol> is an ordered or numbered list
+```
+<ol> is an ordered or numbered list
 <ul> is an unordered list or bullet list
 <li> is how you code the specific lists, the ol and ul are opening and closing tags for the previous lists. Both ordered and unordered us <li>
 <dl> is the opening tag for definitions <dt> contains the term and <dd> contains the definition.
