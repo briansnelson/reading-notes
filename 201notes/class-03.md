@@ -115,7 +115,38 @@ Starts with a variable called a switch value. Each case indicates a possible val
 
 ### Type coercion and weak typing
 
-String is for text, number is number, boolean is t/f, null is empty value, undefined has been declared but not assigned. 
+String is for text, number is number, boolean is t/f, null is empty value, undefined has been declared but not assigned. Because of type coersion strict equals is better ===
 
 ### Truthy and falsy values
 So, I don't really udnerstand this.
+Falsy values can be treated as zero, truthy values can be treated as 1. Both are treated as if they were false or as if they were true.
+
+### Checking Eqaulity and Existance. 
+A unary operator returns a result with just one operand. 
+
+### Short Circuit values:
+logical operators are processed left to right. They short circuit or stop as soon as they have a result - even if not necessarily true of false.
+
+Logical operators will not always return true or false because:
+
+- they return a value that stopped processing
+
+- that value might have been treated as truthy or falsy although it was not Boolean.
+
+## Loops--didn't like this in 102. 
+Loops check a condition. It if returns true, a code block will run, keeps running until a condition returns false. Three common types of loops:
+
+1. For loops: Run a code for a specific number of times, this is also most common
+
+2. While loops: if you do not know how many times a code should run use a counter
+
+3. Do While similar to above EXCEPT it will always run the statements inside curly braces at least once even if condition evaluates to false.
+
+Loops are composed of keyword like for: a condition, opening curly brackets, the code to execute, then closing curly bracket. 
+
+Break it down further:
+initialization: condition: update.
+var i = 0
+condition i < 10; 
+update i++
+
