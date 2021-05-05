@@ -27,7 +27,7 @@ Why code? Why not? Post 911 GI Bill is fantastic, I'm curious, and I can learn t
   1. [Day 1 Introductory HTML and JavaScript](201notes/class-01.md)
   2. [Day 2 HTML Text, CSS Introduction, and Basic JS Intstructions](201notes/class-02.md)
   3. [Day 3 HTML, CSS, JS loops](201notes/class-03.md)
-  4. [Day 4 HTML Links, JS Functions, CSS Layout(201notes/class-04.md)
+  4. [Day 4 HTML Links, JS Functions, CSS Layout](201notes/class-04.md)
   5. Day 5 (Thursday 30 Apr)
   6. Day 6
   7. Day 7
