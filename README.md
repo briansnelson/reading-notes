@@ -1,5 +1,5 @@
 
-## Welcome Brian's First Reading Notes for CodeFellows
+# Welcome Brian's First Reading Notes for CodeFellows
 
 My name is Brian Nelson. I've worn many hats in the past 51 years:
 
@@ -30,7 +30,7 @@ Why code? Why not? Post 911 GI Bill is fantastic, I'm curious, and I can learn t
   4. [Day 4 HTML Links, JS Functions, CSS Layout](201notes/class-04.md)
   5. [Day 5 HTML Images, CSS Color & Text](class-05.md)
   6. [Day 6 Problem Domain, Objects, DOM](class-06.md)
-  7. [Day 7 Domain Modeling, HTML tables, JS Functions, Objects and Models (class-06.md)
+  7. [Day 7 Domain Modeling, HTML tables, JS Functions, Objects and Models (class-07.md)
   8. Day 8
   9. Day 9
   10. Day 10
