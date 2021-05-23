@@ -31,8 +31,8 @@ Why code? Why not? Post 911 GI Bill is fantastic, I'm curious, and I can learn t
   5. [Day 5 HTML Images, CSS Color & Text](class-05.md)
   6. [Day 6 Problem Domain, Objects, DOM](class-06.md)
   7. [Day 7 Domain Modeling, HTML tables, JS Functions, Objects and Models](class-07.md)
-  8. Day 8
-  9. Day 9
+  8. [Day 8 CSS Layout](class-08.md)
+  9. [Day 9 Forms and Events](class-09.md)
   10. Day 10
   11. Day 11
   12. Day 12
