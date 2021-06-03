@@ -35,7 +35,7 @@ Why code? Why not? Post 911 GI Bill is fantastic, I'm curious, and I can learn t
   9. [Day 9 Forms and Events](class-09.md)
   10. [Day 10 Debugging](class-10.md)
   11. [Day 11 Audio, Vidio, Images](class-11.md)
-  12. Day 12
+  12. [Day 12 Charts](class-12.md)
   13. Day 13
   14. Day 15
   15. Day 15
